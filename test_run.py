@@ -1,7 +1,7 @@
 import sys
 sys.path.insert(0, "D:/project_imp")
 
-from I    ngestion.pipeline import run_ingestion
+from Ingestion.pipeline import run_ingestion
 from model.sentiment import predict
 from database.db import init_db, insert_results, get_sentiment_by_ticker
 

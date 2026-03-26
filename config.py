@@ -8,3 +8,5 @@ MODEL_PATH = "C:/models/lora_roberta_finance"
 BASE_MODEL = "roberta-base"
 
 DB_PATH = "D:/project_imp/sentiment.db"
+
+PRICE_DAYS = 14
