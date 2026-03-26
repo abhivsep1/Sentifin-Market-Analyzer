@@ -190,10 +190,6 @@ TSLA · AAPL · NVDA · MSFT · AMZN
 ---
 
 ## Planned Improvements
-
-- [ ] Stock price correlation via yfinance — validate signals against actual 
-      price movement
-- [ ] Sentiment trend visualisation over time
 - [ ] Docker containerisation for portable deployment
 - [ ] FinBERT vs RoBERTa comparative study
 - [ ] Backtesting framework against historical price data
@@ -201,7 +197,15 @@ TSLA · AAPL · NVDA · MSFT · AMZN
 - [ ] PostgreSQL migration for production scalability
 - [ ] Federated learning integration across data source clients
 
----
+
+
+
+## Completed
+- ✅ Stock price correlation via yfinance — closing prices stored and visualized
+- ✅ Sentiment trend visualisation over time — daily aggregated scores charted
+- ✅ Automated study runner — 3x daily data collection with structured storage
+
+
 
 ## Limitations
 
